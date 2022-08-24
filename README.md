@@ -121,3 +121,27 @@
 
 </body>
 </html>
+
+
+
+
+
+
+
+function calculator(a){
+    var b = document.getElementById('abc')
+    // = ye wale sighn se pehle jo mene + lagaya he iska matlab he concat karna matlab alaga karna aur duusra matlab shayad ye he ke jo sir ne bataya he ke pehli value ko to rehne dega aur duusri value ko concat karde ga
+    b.value += a
+}
+
+function equal(){
+    var c = document.getElementById('abc')
+    // console.log(eval(c.value))
+    c.value = eval(c.value)
+}
+
+function remove(){
+    var d = document.getElementById('abc')
+    d.value = ''
+}
+
